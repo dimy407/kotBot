@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
         hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
 
-        # cv.imread(hsv, 0)hh
+        # cv.imread(hsv, 0)hhff
 
         cv.imshow("frame", frame)
 
