@@ -30,6 +30,8 @@ def screen_record():
         mean = np.mean(processed_image)
         print('mean = ', mean)
 
+        cv2.imshow("img", img)
+
         if not mean == float(0):
             pg.press('space')
 
